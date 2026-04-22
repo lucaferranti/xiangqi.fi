@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://marcodpt.github.io/zolastrap/sitemap.xml
+Sitemap: lucaferranti.com/xiangqi.fi/sitemap.xml
