@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: lucaferranti.com/xiangqi.fi/sitemap.xml
+Sitemap: https://lucaferranti.com/xiangqi.fi/sitemap.xml
