@@ -1,0 +1,107 @@
+base_url = "https://marcodpt.github.io/zolastrap/"
+
+default_language = "en"
+compile_sass = true
+title = "Kiinalaisen Shakin Ystävät Suomessa"
+description = "Kiinalaisen Shakin Ystävät Suomessa (kiisys) rekisteröidyn yhdistyksen nettisivut"
+generate_feeds = false
+output_dir = "docs"
+
+taxonomies = [
+  {name = "tags", paginate_by = 5},
+  {name = "authors", paginate_by = 5},
+]
+
+build_search_index = true
+
+[extra]
+short_title = "Kiisys ry"
+banner = "img/banner.png"
+date_format = '%d/%m/%Y'
+
+theme = 'simplex'
+bg = "dark"
+inverted = false
+
+# themes = "Choose a Theme"
+# schemes = "Choose a Color Scheme"
+search = 'Search'
+tag = 'Posts by Topic'
+tags = 'Posts by Topics'
+
+links = [
+  {title = 'Xiangqi Suomessa', url = 'xiangqi_suomessa'},
+  {title = 'Tapahtumat', items = [
+    {title = 'Kalenteri', url = 'kalenteri'},
+    {title = 'Tulokset', url = 'tulokset'}
+  ]},
+  {title = 'Opi', items = [
+    {title = 'Säännöt', url = 'pelisaannot'},
+    {title = 'Notaatio', url = 'notaatio'},
+    {title = 'Avaukset', url = 'avaukset'},
+    {title = 'Kirjallisuus', url = 'kirjallisuus'},
+    {title = 'Resurssit', url = 'resurssit'}
+  ]},
+  {title = 'Vahvuusluvut', url = 'ratings'},
+  {title = 'Yhdistys', items = [
+    {title = 'Jäsenrekisteri', url = 'https://kiisys.yhdistysavain.fi/'},
+    {title = 'Hallitus', url = 'hallitus'},
+    {title = 'Säännöt', url = 'saannot'},
+  ]},
+]
+email = "kiisys92@gmail.com"
+icons = [
+  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com/groups/kiisys/'},
+  {title = 'Github', icon = 'github', url = 'https://github.com/lucaferranti/kiisys.fi'}
+]
+
+utterances = ""
+utterances_label = "Comments"
+utterances_theme = "github-light"
+utterances_issue_term = "pathname"
+
+# Do not change this variables
+data_themes = [
+  'default',
+  'cerulean',
+  'cosmo',
+  'cyborg',
+  'darkly',
+  'flatly',
+  'journal',
+  'litera',
+  'lumen',
+  'lux',
+  'materia',
+  'minty',
+  'morph',
+  'pulse',
+  'quartz',
+  'sandstone',
+  'simplex',
+  'sketchy',
+  'slate',
+  'solar',
+  'spacelab',
+  'superhero',
+  'united',
+  'vapor',
+  'yeti',
+  'zephyr'
+]
+data_schemes = [
+  'dark',
+  'light',
+  'primary',
+  'primary inverted',
+  'secondary',
+  'secondary inverted',
+  'success',
+  'success inverted',
+  'danger',
+  'danger inverted',
+  'warning',
+  'warning inverted',
+  'info',
+  'info inverted',
+]
