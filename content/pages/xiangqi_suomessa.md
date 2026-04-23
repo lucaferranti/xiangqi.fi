@@ -5,7 +5,6 @@ path: xiangqi_suomessa
 
 ## Missä xiangqia pelataan?
 
-Kiinalaisen shakin ystävät Suomessa ry. pj. Mikko Törnqvist
 - **Helsiki**: peli-iltoja noin kerran kuukaudessa. Tarkempia tietoja kalenterissa
 Yhteyshenkilö : Olavi Stenman, puh. 045-840 8584, olavihstenman (at) gmail (piste) com
 - **Tampere**: satunnaisesti peli-iltoja.
